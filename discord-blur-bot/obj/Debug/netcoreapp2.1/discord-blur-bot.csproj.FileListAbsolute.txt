@@ -1,0 +1,11 @@
+D:\Main Folder\Personal Projects\discord-blur-bot\discord-blur-bot\discord-blur-bot\bin\Debug\netcoreapp2.1\discord-blur-bot.deps.json
+D:\Main Folder\Personal Projects\discord-blur-bot\discord-blur-bot\discord-blur-bot\bin\Debug\netcoreapp2.1\discord-blur-bot.runtimeconfig.json
+D:\Main Folder\Personal Projects\discord-blur-bot\discord-blur-bot\discord-blur-bot\bin\Debug\netcoreapp2.1\discord-blur-bot.runtimeconfig.dev.json
+D:\Main Folder\Personal Projects\discord-blur-bot\discord-blur-bot\discord-blur-bot\bin\Debug\netcoreapp2.1\discord-blur-bot.dll
+D:\Main Folder\Personal Projects\discord-blur-bot\discord-blur-bot\discord-blur-bot\obj\Debug\netcoreapp2.1\discord-blur-bot.csprojAssemblyReference.cache
+D:\Main Folder\Personal Projects\discord-blur-bot\discord-blur-bot\discord-blur-bot\obj\Debug\netcoreapp2.1\discord-blur-bot.csproj.CoreCompileInputs.cache
+D:\Main Folder\Personal Projects\discord-blur-bot\discord-blur-bot\discord-blur-bot\obj\Debug\netcoreapp2.1\discord-blur-bot.AssemblyInfoInputs.cache
+D:\Main Folder\Personal Projects\discord-blur-bot\discord-blur-bot\discord-blur-bot\obj\Debug\netcoreapp2.1\discord-blur-bot.AssemblyInfo.cs
+D:\Main Folder\Personal Projects\discord-blur-bot\discord-blur-bot\discord-blur-bot\bin\Debug\netcoreapp2.1\discord-blur-bot.pdb
+D:\Main Folder\Personal Projects\discord-blur-bot\discord-blur-bot\discord-blur-bot\obj\Debug\netcoreapp2.1\discord-blur-bot.dll
+D:\Main Folder\Personal Projects\discord-blur-bot\discord-blur-bot\discord-blur-bot\obj\Debug\netcoreapp2.1\discord-blur-bot.pdb
