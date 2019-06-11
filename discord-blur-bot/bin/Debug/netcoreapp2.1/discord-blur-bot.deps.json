@@ -1,17 +1,60 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "7eee34f531bb3da4f2ee5f53a4e4e66f7039624a"
+    "signature": "4319fd40c2a0f5b86f517f85effdee7563569035"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "discord-blur-bot/1.0.0": {
         "dependencies": {
-          "Discord.Net": "2.1.0"
+          "AForge": "2.2.5",
+          "AForge.Imaging": "2.2.5",
+          "AForge.Imaging.Formats": "2.2.5",
+          "Discord.Net": "2.1.0",
+          "System.Drawing.Common": "4.5.1"
         },
         "runtime": {
           "discord-blur-bot.dll": {}
+        }
+      },
+      "AForge/2.2.5": {
+        "runtime": {
+          "lib/AForge.dll": {
+            "assemblyVersion": "2.2.5.0",
+            "fileVersion": "2.2.5.0"
+          }
+        }
+      },
+      "AForge.Imaging/2.2.5": {
+        "dependencies": {
+          "AForge": "2.2.5",
+          "AForge.Math": "2.2.5"
+        },
+        "runtime": {
+          "lib/AForge.Imaging.dll": {
+            "assemblyVersion": "2.2.5.0",
+            "fileVersion": "2.2.5.0"
+          }
+        }
+      },
+      "AForge.Imaging.Formats/2.2.5": {
+        "runtime": {
+          "lib/AForge.Imaging.Formats.dll": {
+            "assemblyVersion": "2.2.4.0",
+            "fileVersion": "2.2.4.0"
+          }
+        }
+      },
+      "AForge.Math/2.2.5": {
+        "dependencies": {
+          "AForge": "2.2.5"
+        },
+        "runtime": {
+          "lib/AForge.Math.dll": {
+            "assemblyVersion": "2.2.5.0",
+            "fileVersion": "2.2.5.0"
+          }
         }
       },
       "Discord.Net/2.1.0": {
@@ -102,6 +145,22 @@
           }
         }
       },
+      "Microsoft.Win32.SystemEvents/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
       "Newtonsoft.Json/11.0.2": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -130,6 +189,31 @@
       "System.Diagnostics.Debug/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Drawing.Common/4.5.1": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
         }
       },
       "System.Globalization/4.3.0": {
@@ -210,6 +294,34 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AForge/2.2.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YJ+8dP3DEwmsPJ/I2P9ggWA6br+ozFl81TCJpVeg1c4px4mh5BftmuO9gNsciDD9hGgiFCnBoedJk9GaYsZHZg==",
+      "path": "aforge/2.2.5",
+      "hashPath": "aforge.2.2.5.nupkg.sha512"
+    },
+    "AForge.Imaging/2.2.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LO8zRA0bjmAsUJ0GeN8KPy3BETv8dLvPTEOuHJsLZ5wmH1w0wfTVQUlVgJJuiuZOc0BonABpC0oqS4NBNUEcTw==",
+      "path": "aforge.imaging/2.2.5",
+      "hashPath": "aforge.imaging.2.2.5.nupkg.sha512"
+    },
+    "AForge.Imaging.Formats/2.2.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/lQ1GCBSr596TawGYdeh3pScBvtQQ68cyyroyTFtLi7EIatpyJhX0by8T4RnWj11GwoXDzn0oWhiIXsrf/HRWA==",
+      "path": "aforge.imaging.formats/2.2.5",
+      "hashPath": "aforge.imaging.formats.2.2.5.nupkg.sha512"
+    },
+    "AForge.Math/2.2.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-in3TBcuONn8koNpEI7PSQP4hB/NVPU7isT6y9E4tEHQ732PgFrmbhSsY/5K6HBLWocBK0AlpUPUCsx2NKHT1Mw==",
+      "path": "aforge.math/2.2.5",
+      "hashPath": "aforge.math.2.2.5.nupkg.sha512"
+    },
     "Discord.Net/2.1.0": {
       "type": "package",
       "serviceable": true,
@@ -266,6 +378,13 @@
       "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
     },
+    "Microsoft.Win32.SystemEvents/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K2TAr07pgl/m/J9ed3cmAzx0SD55kYuVfBG6SPRIH/ELTh/D2qGrjOWDQJo7r+LZl1nO2Nkl0UAQBUt6S2ewqQ==",
+      "path": "microsoft.win32.systemevents/4.5.0",
+      "hashPath": "microsoft.win32.systemevents.4.5.0.nupkg.sha512"
+    },
     "Newtonsoft.Json/11.0.2": {
       "type": "package",
       "serviceable": true,
@@ -293,6 +412,13 @@
       "sha512": "sha512-ZUhUOdqmaG5Jk3Xdb8xi5kIyQYAA4PnTNlHx1mu9ZY3qv4ELIdKbnL/akbGaKi2RnNUWaZsAs31rvzFdewTj2g==",
       "path": "system.diagnostics.debug/4.3.0",
       "hashPath": "system.diagnostics.debug.4.3.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m3c7Fe/CS/jZ/nLBrxCCh52dYiC33GPbGfcF4CiVukb8+p121XUTHxs6sYKbWfvDVD8JssHcM+HVFLtzl3X3Xw==",
+      "path": "system.drawing.common/4.5.1",
+      "hashPath": "system.drawing.common.4.5.1.nupkg.sha512"
     },
     "System.Globalization/4.3.0": {
       "type": "package",
